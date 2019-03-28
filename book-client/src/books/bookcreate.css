@@ -1,0 +1,79 @@
+body {
+  background-color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  padding-right: 70%;
+  padding-top: 15px;
+}
+
+.btn {
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+
+.add-book-message {
+  padding-top: 15px;
+}
+
+.tbr-list-heading {
+  margin-top: 1em;
+}
+
+.card-btn {
+  padding: 5px 10px;
+  margin: 0 1em 0 1em;
+  color: #000;
+  background-color: #fff;
+}
+
+.del-btn:hover {
+  color: red;
+  border: 1px solid red;
+  background-color: #fff;
+}
+
+.edit-btn:hover {
+  color: green;
+  border: 1px solid green;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin-left: 12em;
+}
+
+.book-box {
+  border: 2px solid #BD967B;
+  margin: 2em;
+  padding: 1em;
+  background-color: #D2B48C;
+  /* text-align: center; */
+  /* width: 50%; */
+}
+
+.span-item {
+  float: left;
+}
+
+.book-box:hover {
+  border: 2px solid #BD967B;
+  box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+
